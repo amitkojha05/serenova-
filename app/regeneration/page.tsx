@@ -1,5 +1,9 @@
 'use client'
 
+
+import { useViewerCommand } from '@/hooks/use-viewer-command'  // ← ADD THIS LINE
+
+
 import { useState } from 'react'
 import { Navbar } from '@/components/navbar'
 import { Footer } from '@/components/footer'
