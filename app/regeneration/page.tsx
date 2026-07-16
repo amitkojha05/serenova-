@@ -1,10 +1,8 @@
 'use client'
-
-
-import { useViewerCommand } from '@/hooks/use-viewer-command'  // ← ADD THIS LINE
-
+'use client'
 
 import { useState } from 'react'
+import { useViewerCommand } from '@/hooks/use-viewer-command'
 import { Navbar } from '@/components/navbar'
 import { Footer } from '@/components/footer'
 import { ControlPanel, colors } from '@/components/regeneration/control-panel'
